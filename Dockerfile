@@ -9,4 +9,4 @@ RUN cd /tmp \
 
 EXPOSE 8888
 
-CMD ["python", "/tmp/tornado_smoking_eval/smoking_eval.py"]
+CMD ["python3", "/tmp/tornado_smoking_eval/smoking_eval.py"]
