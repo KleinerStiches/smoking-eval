@@ -1,6 +1,5 @@
 FROM ubuntu
 
-RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update -y && apt-get install git python3 python3-pip -y
 RUN cd /tmp \
     && git clone https://github.com/KleinerStiches/backend-smoking-eval.git tornado_smoking_eval \
